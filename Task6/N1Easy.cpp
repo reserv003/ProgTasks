@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i = 0, j, n, min=10000, sum = 0, ind=0;
+    int i = 0, j, n, min=INT_MAX, sum = 0, ind=0;
     std::cin >> j;
     while (j > 0)
     {
