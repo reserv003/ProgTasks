@@ -40,7 +40,7 @@ int main()
         {
             for (int k = 0; k < n - i; k++)
             {
-                if (mas[k] > mas[k + 1])
+                if (mas[k] < mas[k + 1])
                 {
                     int temp = mas[k];
                     mas[k] = mas[k + 1];
