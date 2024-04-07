@@ -18,4 +18,4 @@ include_directories("inc")
 add_executable("${PROJECT_NAME}" main.cpp inc/func.hpp src/func.cpp)
 
 # Копирование файла
-file(COPY "input.txt" DESTINATION "/")
+file(COPY "log.txt" DESTINATION "/")
