@@ -29,7 +29,7 @@ public:
 	void setС(float h)
 	{
 		if (h < 0)
-			std::cout << "Отрицательное число С" << std::endl;
+			std::cout << "Отрицательное число H" << std::endl;
 		m_h = h;
 	}
 
